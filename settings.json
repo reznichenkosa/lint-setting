@@ -1,0 +1,69 @@
+{
+  "window.zoomLevel": 1,
+
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.detectIndentation": true,
+  "editor.suggestSelection": "first",
+  "editor.scrollBeyondLastLine": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+
+  "update.showReleaseNotes": false,
+
+  "explorer.compactFolders": false,
+  "editor.formatOnPaste": true,
+
+  "eslint.validate": ["javascript", "typescript", "html"],
+  "eslint.options": { "extensions": [".js", ".ts", "html"] },
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+    // {
+    //   "format": "compressed",
+    //   "extensionName": ".min.css",
+    //   "savePath": "~../css"
+    // }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "settingsSync.ignoredExtensions": [],
+  "workbench.preferredDarkColorTheme": "Monokai Dimmed",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredLightColorTheme": "Bluloco Light Italic",
+  "workbench.colorTheme": "Bluloco Light Italic",
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "json.schemas": [],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
